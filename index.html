@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang=en-GB>
+<title>Madiha Hussain</title>
+<meta charset=utf-8>
+<meta name=keywords content="Data Science, Data Analysis, Programmer, Software, Data Infrastructure">
+<link href="https://fonts.googleapis.com/css?family=Biryani%7COpen%20Sans%7COpen%20Sans%20Mono" rel=stylesheet> 
+<style>
+* {line-height: 1.5}
+body {margin-left: 20%; margin-right: 20%; margin-top: 2em; margin-bottom: 2em; color: #222; font-family: "Open Sans", sans-serif; hyphens: auto; }
+@media (max-width: 500px) {
+   body { margin-left: 50px; margin-right: 50px; }
+}
+h1 { text-align: center; }
+h1, h2, h3, h4, h5, h6 { color: #800; font-family: "Biryani", serif; }
+h2 em, h3 em, h4 em { letter-spacing: 0.05em; }
+h2 a, h3 a, h4 a { letter-spacing: 0.05em; color: #800; text-decoration: underline dotted; }
+
+a { text-decoration: none; color: #008; }
+address { font-style: normal; }
+code { font-family: "Open Sans Mono", monospace; }
+
+dt { color: #800; }
+</style>
+<body>
+<h1>Madiha Hussain</h1>
+
+<p>I work at the intersection of machine learning, statistics and data infrastructure. I am currently at Ellison Institiute of Transformative Medicine, where I am writing large scale infrastructure to reconstruct 3D structure of tissue and studying how 3D improves cancer classification algorithms traditionally applied in 2D.
+<p>Previously I was at Fem Inc. where I focussed on automated classification and metadata enrichment of short form video content. I also designed and deployed models to improve user engagement in video content.
+
+<h2>Contact</h2>
+<address>
+<a href="mailto:madiha.hussain28%20at%20gmail.com">madiha.hussain28 AT gmail.com</a>
+</address>
+
+<h2>Education</h2>
+<p><strong>California Institute of Technology</strong>, Pasadena, Calif.<br>
+Bachelor of Science in Physics with Honours<br>
+
+<h2>Technical Skills</h2>
+<dl>
+<dt>Programming languages
+<dd>Python, SQL, Bash, Haskell, ECMAScript/JavaScript/Node.js, C++
+<dt>Data science
+<dd>R, NumPy/SciPy/Pandas, IPython/Jupyter, <code>scikit‐learn</code>, NLTK,  MATLAB, Mathematica/Wolfram Language
+<dt>Image analysis
+<dd><code>scikit‐image</code>, OpenCV, ImageMagick
+<dt>Ontology/Semantic Web
+<dd>RDF, SPARQL, OpenLink Virtuoso, DBpedia
+<dt>Distributed computing
+<dd>Google BigQuery, Apache Spark, Apache Hive/MapReduce, Apache Hadoop
+<dt>DevOps
+<dd>Amazon Web Services (EC2, DynamoDB, S3, EMR, CloudSearch, ElastiCache, Lambda, Elastic Beanstalk), <code>supervisord</code>, New Relic, Fluentd, Git, Ansible, Phabricator/Arcanist, GNU/Linux (Ubuntu, RHEL)
+<dt>Others
+<dd>L<sup>A</sup>T<sub>E</sub>X, HTML(5)/CSS(3), Redis, Mako, Atlassian Confluence
+</dl>
+
+<h3>Work Experience</h3>
+<h4><em>Computational Programmer</em> at <a href="https://ellison.usc.edu">Ellison Institute, USC</a></h4>
+<p><time datetime="2017-11">November 2017</time> to Present
+<address>
+2250 Alcazar Street, CSC 240, Los Angeles, Calif. 90033<br>
+<a href="tel:+1-310-272-7640">310‒272‒7640</a>
+</address>
+<ul>
+<li>Write pipelines to pre‐process (compress, scale, crop, remove noise, align) very large raw microscopy images for easier downstream processing.
+<li>Perform rigid and elastic registration on images of serial sections of tissue to generate their 3D reconstruction.
+<li>Design and compute metrics to measure elastic distortion in microtome tissue sections by extracting their displacement fields.
+<li>Design and deploy a robust algorithm to sequentially re‐order images.
+<li>Implement algorithm to correct for color vairiations  in serial images due to ligthing, imaging and tissue staining artifacts.
+<li>Use machine learning, in particular neural networks, to classify cancer status and type.
+<li>Implement infrastructure to back up, clean, and manage high‐resolution microscopy images.
+</ul>
+
+<section>
+<h4><em>Senior Data Science Engineer</em> at <a href="https://www.fem-inc.com">FEM Inc.</a></h4>
+<p><time datetime=2015-07>July 2015</time> to <time datetime=2017-06>June 2017</time>
+<address>
+880 Harrison St. Suite # 303A, San Francisco, Calif. 94609<br>
+<a href="tel:+1-626-239-6620">626‒239‒6620</a>
+</address>
+<ul>
+<li>Predictive Modelling
+<ul>
+<li>Implement model to extract users with strong TV viewing habits. Predict channel and show preferences of such users and ensure very high precision in the predictions. 
+<li>Train models to predict video engagement metrics using features extracted from video metadata; improved click and completion rates by 25% to 50% on a number of partners.
+<li>Improve the performance of models used for inferring video categories and motivation by 30% by extracting  additional features and testing additional algorithms.
+<li>Spearhead efforts to implement different components of machine learning pipeline (data collection, feature extraction, cross‐validation) independently to enable rigorous feature engineering and model selection, easy updates to the model, and to improve reusability.
+<li>Design and implemented microservice‐oriented infrastructure to deploy models, decouple implementation details of models from the projects utilizing them,  minimize memory use, and obtain rapid real‐time predictions.
+<li>Extend the current video tagging models to multimedia content in various natural languages.
+</ul>
+<li>Online Learning
+<ul>
+<li>Implement reinforcement learning (RL) with adaptive sampling to continuously learn which videos are doing well and adapt to user interests in real time.
+<li>Extend current RL to carry out reward and the respective feedback along a number of hierarchical dimensions.
+<li>Implement architecture to compute and store user preferences as soon as any signal is received.
+<li>Personalize the recommendations according to the computed user preferences in real time.
+</ul>
+<li>Named Entity Recognition
+<ul>
+<li>Implement framework to extract key people, places, organizations, movies, etc. from textual metadata.
+<li>Deploy and manage a private Virtuoso server to query DBpedia data  in real time.
+<li>Extract deeper standardized relationship between key entities mentioned in text.
+</ul>
+<li>Campaign Management
+<ul>
+<li>Design and implement flexible campaign management and tracking systems.
+<li>Ensure that partner‐specified constraints on campaigns are satisfied. These include the time range, the desired target views on campaign videos, and the positioning of the campaign content during user session.
+</ul>
+<li>Experiment Design
+<ul>
+<li>Implement infrastructure for A/B testing to optimize recommendation parameters and UI features.
+<li>Minimize loss during experiment by  dynamically adjusting bucket probabilities by implementing Bayesian multi‐armed‐bandit approaches.
+<li>Automate the generation, monitoring and presentation of results from the experiments. 
+</ul>
+<li>Analytics Dashboard
+<ul>
+<li>Write and deploy server side of partner‐facing dashboard which computes various aggregate metrics and their breakdowns by a number of dimensions to enable easy tracking of performance in real time.
+<li>Utilize time‐series analysis to extract celebrities that are trending on the partners’ sites. 
+</ul>
+<li>Others
+<ul>
+<li>Significantly reduce cost by optimizing SQL queries and database design.
+<li>Utilize Spark to process a large number of videos to efficiently surface updates to existing models.
+<li>Develop approaches to automatically detect and block fraudulent bot traffic to maintain the integrity of traffic and data.
+</ul>
+</ul>
+</section>
+
+<section>
+<h4><em>Data Scientist</em> at <a href="http://www.pixalate.com">Pixalate</a></h4>
+<p><time datetime="2014-08">August 2014</time> to <time datetime="2015-06">June 2015</time>
+
+<address>
+929 Colorado Ave. #125, Santa Monica, Calif. 90401<br>
+<a href="tel:+1-888-749-2528">1‒888‒PIXALATE</a>
+</address>
+
+<ul>
+<li>Develop a composite metric to analyse and rank the trustworthiness of online advertising sellers through popularity, price, visibility, incidence of fraud etc. 
+<li>Minimize incidence of fraud through automated optimization of various parameters, including advertising placement, domain and device type. Successfully reduced incidence of fraud from 30% to below 5%.
+<li>Design and implement a time‐series‐based model to detect gateways that host multiple legitimate users behind a single IP address in order to reduce false positives in fraud detection.
+</ul>
+
+<h3>Awards and Honours</h3>
+<ul>
+<li>Ferkel Scholarship (Full Tuition), Caltech: September 2013 to June 2014
+<li>Ferkel Scholarship (Full Tuition), Caltech: September 2012 to June 2013
+<li>Bronze medal in 39<sup>th</sup>International Physics Olympiad held in Hanoi, Vietnam: July 2008
+</ul>
+</section>
+
